@@ -24,6 +24,7 @@ const App = () => {
   return (
     <div className="app">
       <h1>MovieLand</h1>
+      <h2>By Phạm Lê Ngọc Sơn</h2>
 
       <div className="search">
         <input
@@ -41,7 +42,7 @@ const App = () => {
       {movies?.length > 0 ? (
         <div className="container">
           {movies.map((movie) => (
-            <MovieCard movie={movie} />
+            <MovieCard movie={movie} key={movie.imdbID} />
           ))}
         </div>
       ) : (

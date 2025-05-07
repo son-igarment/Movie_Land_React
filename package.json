@@ -2,6 +2,8 @@
   "name": "movie_land_react",
   "version": "0.1.0",
   "private": true,
+  "author": "Phạm Lê Ngọc Sơn",
+  "description": "A React application for searching and displaying movie information from OMDB API",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
